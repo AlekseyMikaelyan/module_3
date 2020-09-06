@@ -1,0 +1,27 @@
+2020-09-06 05:24:28 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-09-06 05:24:29 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-06 05:24:29 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-09-06 05:24:29 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/module3]
+2020-09-06 05:24:29 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-09-06 05:24:30 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-09-06 05:24:30 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-06 05:24:30 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-09-06 05:24:32 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5875de6a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-09-06 05:24:32 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-06 05:24:32 WARN  SqlExceptionHelper:137 - SQL Error: 0, SQLState: 23505
+2020-09-06 05:24:32 ERROR SqlExceptionHelper:142 - ОШИБКА: повторяющееся значение ключа нарушает ограничение уникальности "uk_9q63snka3mdh91as4io72espi"
+  Подробности: Ключ "(phone_number)=(0688933900)" уже существует.
+2020-09-06 05:24:32 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/module3]
+2020-09-06 05:24:45 INFO  Version:44 - HHH000412: Hibernate ORM core version 5.4.15.Final
+2020-09-06 05:24:46 INFO  Version:49 - HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+2020-09-06 05:24:47 WARN  pooling:72 - HHH10001002: Using Hibernate built-in connection pool (not for production use!)
+2020-09-06 05:24:47 INFO  pooling:115 - HHH10001005: using driver [org.postgresql.Driver] at URL [jdbc:postgresql://localhost:5432/module3]
+2020-09-06 05:24:47 INFO  pooling:124 - HHH10001001: Connection properties: {password=****, user=postgres}
+2020-09-06 05:24:47 INFO  pooling:129 - HHH10001003: Autocommit mode: false
+2020-09-06 05:24:47 INFO  DriverManagerConnectionProviderImpl:249 - HHH000115: Hibernate connection pool size: 20 (min=1)
+2020-09-06 05:24:47 INFO  Dialect:172 - HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2020-09-06 05:24:49 INFO  access:47 - HHH10001501: Connection obtained from JdbcConnectionAccess [org.hibernate.engine.jdbc.env.internal.JdbcEnvironmentInitiator$ConnectionProviderJdbcConnectionAccess@5875de6a] for (non-JTA) DDL execution was not in auto-commit mode; the Connection 'local transaction' will be committed and the Connection will be set into auto-commit mode.
+2020-09-06 05:24:49 INFO  JtaPlatformInitiator:52 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2020-09-06 05:24:49 INFO  UserDaoImpl:34 - User with 1 id was found
+2020-09-06 05:24:49 INFO  OperationDaoImpl:44 - A new income operation was added from account 1
+2020-09-06 05:24:49 INFO  pooling:418 - HHH10001008: Cleaning up connection pool [jdbc:postgresql://localhost:5432/module3]
